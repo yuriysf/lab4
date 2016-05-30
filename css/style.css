@@ -148,6 +148,10 @@ header {
 .slider {
 	background-color: white;
 }
+.slider_box {
+	width: 90%;
+	margin: auto;
+}
 .slider_content {
 	display: inline-block;
 }
@@ -159,7 +163,7 @@ header {
 	float: left;
 }
 .slider .slider_content:nth-child(1) {
-	width: 37%;
+	width: 33%;
 	border-right: 1px solid #a1a1a1;
 }
 .slider .slider_content:nth-child(1) .image {
@@ -175,7 +179,7 @@ header {
 	padding-left: 6px;
 }
 .slider .slider_content:nth-child(2) {
-	width: 25%;
+	width: 33%;
 	border-right: 1px solid #a1a1a1;
 }
 .slider .slider_content:nth-child(2) .image {
@@ -191,7 +195,7 @@ header {
 	padding-left: 8px;
 }
 .slider .slider_content:nth-child(3) {
-	width: 25%;
+	width: 33%;
 }
 .slider .slider_content:nth-child(3) .image {
 	float: left;
