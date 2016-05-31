@@ -103,7 +103,7 @@ header {
 	float: left;
 	width: 58%;
   	margin-right: 7%;
-	padding: 6px 120px 0px 92px;
+	padding: 6px 120px 77px 92px;
 }	
 .slider1_content h1 {
 	font-family: "Bebas", Arial, sans-serif;
@@ -128,17 +128,20 @@ header {
 	color: white;
 }
 .slider1_circle {
-	margin: 0 46% 34px;
+    height: 9px;
+    margin: 0px 46% 34px;
+    position: absolute;
+  	bottom: 0;
+    left: 0;
+    width: 100px;
 }
 .circle {
-	width: 9px;
-    height: 9px;
-    float: left;
-    background: white;
+    background: #ffffff none repeat scroll 0% 0%;
     border-radius: 50%;
-    margin-right: 12px;
-    position: absolute;
-    bottom: 34px;
+    float: left;
+    height: 9px;
+    margin-right: 13px;
+    width: 9px;
 }
 .circle:last-child {
 	margin-right: 0;
@@ -150,9 +153,21 @@ header {
 .slider2 {
 	background-color: white;
 	padding: 0 12%;
+	position: relative;
 }
-.slider2_left_cursor {
+.left_pointer {
 	position: absolute;
+	width: 12%;
+	height: 100%;
+	left: 0;
+	background: url(../img/left-pointer.png) no-repeat 46% 50%;
+}
+.right_pointer {
+	position: absolute;
+	width: 12%;
+	height: 100%;
+	right: 0;
+	background: url(../img/right-pointer.png) no-repeat 43% 50%;
 }
 .slider2_box {
 	width: 33.3%;
@@ -164,13 +179,18 @@ header {
   	border-left: 1px solid #a1a1a1;
 }  
 .slider2_box .image {
+	height: 100%;
 	width: 55%;
 	float: left;
 }
-.image img {
-	display: block;
-	margin: 0 auto;
-	max-width: 100%;
+.slider2_box .image1 {
+	padding: 29px 20px;
+}
+.slider2_box .image2 {
+	padding:25px 15px;
+}
+.slider2_box .image3 {
+	padding: 25px 42px;
 }
 .slider2_box h3 {
 	font-family: "Bebas", Arial, sans-serif;
@@ -193,21 +213,12 @@ header {
 	float: left;
  	margin: 19px 6px;
  }	
-.slider2 .slider2_box:nth-child(1) img {
-	margin: 29px 20px ;
-}
-.slider2 .slider2_box:nth-child(2) img {
-	margin: 25px 14px ;
-}
-.slider2 .slider2_box:nth-child(3) img {
-	margin: 25px 42px ;
-}
 /*featured products*/
 .featured_product h2{
 	font-family: "Bebas", Arial, sans-serif;
 	font-size: 22px;
 	color: white;
-	line-height: 68px;
+	line-height: 67px;
   	padding-left: 16%;
 }
 /*catalog*/
@@ -236,7 +247,7 @@ header {
 	margin: 21px 35px;
 }
 .catalog .catalog_box:nth-child(3) img {
-	margin: 30px 40px;
+	margin: 28px 40px;
 }
 .catalog .catalog_box:nth-child(4) img {
 	margin: 26px 18px;
@@ -245,7 +256,7 @@ header {
 	margin: 21px 19px;
 }
 .catalog .catalog_box:nth-child(6) img {
-	margin: 22px 56px;
+	margin: 23px 56px;
 }
 .catalog_box h3, .catalog_box p{
 	font-family: "Bebas", Arial, sans-serif;
@@ -270,7 +281,7 @@ header {
 /*footer*/
 footer {
 	background-color: #3cc3b5;
-	padding: 37px 15% 33px 15%;
+	padding: 37px 15% 32px 15%;
 
 }
 .footer_box_content {
