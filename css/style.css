@@ -207,20 +207,20 @@ header {
 	font-family: "Bebas", Arial, sans-serif;
 	font-size: 22px;
 	color: white;
-	line-height: 66px;
+	line-height: 68px;
   	padding-left: 16%;
 }
 /*catalog*/
 .catalog {
 	background-color: white;
-	padding: 47px 6% 26px 16%;
+	padding: 47px 6% 29px 16%;
 }
 .catalog_box {
 	float: left;
 	width: 255px;
 	height: 261px;
 	margin-right: 56px;
-	margin-bottom: 47px;
+	margin-bottom: 45px;
 	border: 1px solid #a1a1a1;
 	border-bottom: 3px solid #3cc395;
 	padding: 0 35px;
@@ -233,13 +233,13 @@ header {
 	margin: 43px 11px;
 }
 .catalog .catalog_box:nth-child(2) img {
-	margin: 22px 35px;
+	margin: 21px 35px;
 }
 .catalog .catalog_box:nth-child(3) img {
 	margin: 30px 40px;
 }
 .catalog .catalog_box:nth-child(4) img {
-	margin: 25px 18px;
+	margin: 26px 18px;
 }
 .catalog .catalog_box:nth-child(5) img {
 	margin: 21px 19px;
