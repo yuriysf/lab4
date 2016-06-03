@@ -18,6 +18,11 @@
 a {
 	text-decoration: none;
 }
+img {
+	display: block;
+	margin: 0 auto;
+	max-width: 100%;
+}
 body {
 	background-color: #3cc3b5;
 	font-family: "Open Sans", Arial, sans-serif;
